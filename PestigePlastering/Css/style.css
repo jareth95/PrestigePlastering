@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(#18222b, #465260)no-repeat fixed center;
+    /* background: linear-gradient(#18222b, #465260)no-repeat fixed center; */
 }
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
     color: #64ffff;
@@ -10,15 +10,29 @@ body {
     padding: 1rem;
     /* color: #1a93ca; */
 }
+nav {
+    border-bottom: 2px solid #64ffff!important;
+}
 .bg-dark {
     background: linear-gradient(#18222b, #465260)no-repeat fixed center;
-    border-bottom: 2px solid #64ffff;
+    
 }
 .ml-auto, .mx-auto {
-    max-width: 30%;
+    max-width: 20%;
 }
 .border-top {
     border-top: 2px solid #64ffff!important;
+}
+.rightColor {
+    color: linear-gradient(#18222b, #465260)no-repeat fixed center;
+}
+.btn-primary {
+    background-color: #64ffff!important;
+    color: #18222b!important;
+    border: none;
+}
+.col h5 {
+    color: #64ffff
 }
 /* Extra small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default in Bootstrap*/
