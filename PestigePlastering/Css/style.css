@@ -29,8 +29,9 @@ nav {
     color: #18222b!important;
     border: none;
 }
-.col h5 {
-    color: #64ffff
+.col-6 h5 {
+    color: #64ffff;
+    display: inline;
 }
 /* Extra small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default in Bootstrap*/
