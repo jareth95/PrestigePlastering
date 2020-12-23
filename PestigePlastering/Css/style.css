@@ -39,7 +39,7 @@ nav {
 }
 .col-12 h1 {
     background: -webkit-linear-gradient(left, #2482bf, #64ffff);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
 }
