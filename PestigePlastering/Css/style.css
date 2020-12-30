@@ -6,15 +6,9 @@
     color: rgba(100, 255, 255,.5);
     font-size: 1.5rem;
     padding: 1rem;
-    /* color: #1a93ca; */
-}
-nav {
-    border-bottom: 3px solid #64ffff!important;
 }
 .bg-dark {
-    /* background: linear-gradient(#18222b, #465260)no-repeat fixed center; */
     background-color: #000!important;
-    
 }
 .ml-auto, .mx-auto {
     max-width: 20%;
@@ -27,9 +21,13 @@ nav {
     color: #18222b!important;
     border: none;
 }
-.col-6 h5 {
+.col-12 h6 {
     color: #64ffff;
     display: inline;
+    
+}
+.col-12 a {
+    text-decoration: none;
 }
 .heading {
     background-color: #000;
@@ -39,36 +37,34 @@ nav {
 }
 .col-12 h1 {
     background: -webkit-linear-gradient(left, #2482bf, #64ffff);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: bold;
+    color: #000;
+    font-weight: bold;
 }
-/* Extra small devices (portrait phones, less than 576px)
-No media query for `xs` since this is the default in Bootstrap*/
-
+.accordion-button {
+    background: -webkit-linear-gradient(left, #2482bf, #64ffff);
+}
+a h5 {
+    text-decoration: none;
+}
+.navbar-dark .navbar-toggler {
+    color: #64ffff;
+    margin: 15px 0px 15px 0px;
+}
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (max-width: 1200px) {
-    /* .ml-auto, .mx-auto {
-        max-width: 30%;
-    } */
+   
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (max-width: 992px) {
-    /* .ml-auto, .mx-auto {
-        max-width: 50%;
-    } */
+    
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) {
-    /* .ml-auto, .mx-auto {
-        max-width: 60%;
-    } */
+   
 }
 /* Small devices (landscape phones, 576px and up)  */
 @media (max-width: 576px) { 
-    /* .ml-auto, .mx-auto {
-        max-width: 50%;
-    } */
+  
  }
