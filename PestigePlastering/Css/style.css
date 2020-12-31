@@ -50,6 +50,10 @@ a h5 {
     color: #64ffff;
     margin: 15px 0px 15px 0px;
 }
+.radius {
+    border-radius: 10px;
+}
+
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (max-width: 1200px) {
    
