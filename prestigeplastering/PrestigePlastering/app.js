@@ -20,7 +20,7 @@ window.addEventListener('load', () => {
     const selectedDiv = document.querySelectorAll('.carousel-div')
 
     if (indexCarouselImg !== null) {
-        setInterval(indexCarouselChangeImage, 4000)
+        setInterval(indexCarouselChangeImage, 3500)
         indexCarouselClickChangeImage()
     }
     function indexCarouselClickChangeImage() {
