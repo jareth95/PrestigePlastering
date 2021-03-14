@@ -90,7 +90,8 @@ ul li.active::after {
 /* footer */
 .footer,
 .footer-phone-container a,
-.footer-email-container a {
+.footer-email-container a,
+.footer-instagram-container a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,16 +100,21 @@ ul li.active::after {
     font-size: 1.25rem;
 }
 .footer {
-    height: 100px;
+    height: 200px;
     width: 100%;
     background: var(--third-website-color);
+    flex-wrap: wrap;
 }
 .footer-phone-container,
 .footer-email-container {
     width: 50%;
 }
+.footer-instagram-container {
+    width: 100%;
+}
 .footer-phone-container img,
-.footer-email-container img {
+.footer-email-container img,
+.footer-instagram-container img {
     height: 50px;
     margin: 1.5rem;
 }
@@ -183,7 +189,7 @@ ul li.active::after {
     position: relative;
     color: var(--third-website-color);
 }
-.main-page-header::before {
+/* .main-page-header::before {
     content: '';
     position: absolute;
     left: 50%;
@@ -192,7 +198,7 @@ ul li.active::after {
     width: 60%;
     height: 3px;
     transform: translateX(-50%);
-}
+} */
 /* contact page */
 .contact-page-main-container,
 .contact-page-form-container,
@@ -466,12 +472,14 @@ form {
     }
 /* footer */
     .footer-phone-container a,
-    .footer-email-container a {
+    .footer-email-container a,
+    .footer-instagram-container a {
         font-size: 1rem;
         padding: .5rem;
     }
     .footer-phone-container img,
-    .footer-email-container img {
+    .footer-email-container img,
+    .footer-instagram-container img {
         margin: .5rem;
     }
     /* about page */
@@ -522,14 +530,16 @@ form {
     /* footer */
     .footer {
         flex-direction: column;
-        height: 200px;
+        height: 300px;
     }
     .footer-phone-container,
-    .footer-email-container {
+    .footer-email-container,
+    .footer-instagram-container {
         width: 100%;
     }
     .footer-phone-container a,
-    .footer-email-container a {
+    .footer-email-container a,
+    .footer-instagram-container a {
         justify-content: flex-start;
     }
     /* index page */ 
